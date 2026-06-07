@@ -27,7 +27,7 @@ export const WorkspaceSwitcher = () => {
             workspace?.name.charAt(0).toUpperCase()
           )}
         </Button>
-      </DropdownMenuTrigger>
+      </DropdownMenuTrigger >
       <DropdownMenuContent side="bottom" align="start" className="w-64 p-2">
         {/* Active Workspace Item */}
         <DropdownMenuItem 
